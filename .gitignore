@@ -1,3 +1,5 @@
+.awcache/
+.idea/
+.tmp/
 node_modules/
 out/
-.awcache/
