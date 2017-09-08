@@ -6,6 +6,8 @@ interface CounterProps {
 
 export class Counter extends React.Component<CounterProps, undefined> {
     render() {
-        return <div>You have clicked the button {this.props.count} times.</div>;
+        return <div>
+            You have clicked the button <em>{this.props.count}</em> times.
+        </div>;
     }
 }
