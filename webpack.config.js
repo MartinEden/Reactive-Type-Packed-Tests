@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	name: "webpack-typescript-tests-example",
+    name: "webpack-typescript-tests-example",
     entry: "./src/main/index.tsx",
     devtool: "source-map",
 
