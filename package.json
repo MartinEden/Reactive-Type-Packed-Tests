@@ -6,6 +6,7 @@
   "scripts": {
     "start": "serve out",
     "webpack": "webpack",
+    "watch": "webpack --watch",
     "test": "mocha-webpack --webpack-config webpack.test.config.js \"src/test/**/*\""
   },
   "repository": { 
@@ -33,7 +34,7 @@
     "react-addons-test-utils": "^15.6.0",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
-    "serve": "^6.0.6",
+    "serve": "^6.4.1",
     "source-map-loader": "^0.2.1",
     "typescript": "^2.4.2",
     "webpack": "^3.4.1"
